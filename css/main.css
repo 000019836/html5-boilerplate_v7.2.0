@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+
 }
 
 /*
@@ -98,12 +99,100 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background:#dbd6e5;
+}
+img{width:100%;
+max-width: 100%}
+
+
+a{
+  color: #a68fd1;
+  text-decoration: none;
+
+}
+
+a:hover{
+   color: #a68fd1;
+  text-decoration: none;
+}
+
+ul{list-style-type: none;}
+
+li{
+  display: inline-block;
+}
+
+
+.navigation{
+  color: #a68fd1;
+  text-align: center;
+  margin-left: 100px;
+  margin-bottom: 80px;
+}
+
+.description{
+  margin-top: 100px;
+}
+
+.navigation li{
+    background: #584277;
+    margin: 12px;
+    padding: 12px;
+    margin-top: 0;
+}
+
+.sidebarleft{
+  height: 1193px;
+  background:#584277; 
+}
+
+.sidebarleft h1{
+  font-size: 120px;
+  font-weight: 800px;
+  color: #a68fd1;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 250px;
+}
+
+.sidebarright{
+  height: 400px;
+  background:#584277; 
+}
+
+.sidebarright h1{
+  font-size: 80px;
+  font-weight: 800px;
+  color: #a68fd1;
+   text-align: center;
+  margin-top: 60px;
 }
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+   .footer{
+    background:#a68fd1;
+    height:4em;
 
+   }
+
+   .footer p{
+    margin: 12px;
+    padding: 12px;
+   }
+   .texto {
+    font-size: 2em;
+   }
+   .head {
+
+    height: 2em;
+    font-size: 2em;
+   }
+
+   .mail {
+height:80;
+   }
 /*
  * Hide visually and from screen readers
  */
